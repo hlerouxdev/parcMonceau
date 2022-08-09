@@ -122,12 +122,48 @@ header {
 
 .slide-menu {
   position: absolute;
-  bottom: -275px;
+  display: none;
 }
 
 .slide img {
   width: 300px;
   margin-bottom: 50px;
+}
+
+.slide-nav {
+  position: absolute;
+  gap: 5px;
+  display: flex;
+  bottom: -275px;
+}
+
+.slide-nav-button {
+  height: 10px;
+  width: 20px;
+  border-radius: 5px;
+  border: solid white 2px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.slide-nav-button:hover {
+  background-color: white;
+}
+
+#r1:checked .s1 {
+  margin-left: 0;
+}
+
+#r2:checked .s1 {
+  margin-left: -300px;
+}
+
+#r3:checked .s1 {
+  margin-left: -600px;
+}
+
+#r4:checked .s1 {
+  margin-left: -900px;
 }
 
 footer {
