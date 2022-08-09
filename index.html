@@ -4,9 +4,101 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Les Films de Plein Air</title>
+  <link rel="stylesheet" href="./styles/index.css">
+
+  <!-- import  police Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- import  police Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <div id="header-container">
+      <h1>Les Films de
+        Plein Air</h1>
+      <ul>
+        <li><a href="#">à l'affiche</a></li>
+        <li><a href="#">Programmation</a></li>
+        <li><a href="#">Parc Monceau</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <div id="main">
+    <section id="presentation">
+      <div class="bg-black"></div>
+      <h2>Qui sommes-nous?</h2>
+      <p>Notre association "Les Films de Plein Air" projettera au parc Monceau cette année, chaque soir du 5 au 8 août, de 18 heures à minuit. Je souhaite ainsi faire découvrir des films d'auteur au grand public.</p>
+    </section>
+    <section id="slide">
+      <h2>à l'affiche</h2>
+
+      <div class="slide-menu">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+      </div>
+
+      <div id="slideshow">
+
+        <div class="slide">
+          <h3>Luzzu</h3>
+          <img src="./images/luzzu.jpg" alt="Affiche du film Luzu">
+          <h3>Écrit et réalisé par Alex Camilleri</h3>
+          <p>
+            Un pêcheur maltais doit faire un choix entre réparer son luzzu – un petit bateau de pêche traditionnel – pour tenter de subvenir tant bien que mal aux besoins de sa famille, comme son père et son grand-père l’on fait avant lui.
+            Ou bien, le faire déclasser, recevoir en échange un dédommagement de l’UE, et commencer à travailler au noir pour un employeur dont les activités illicites, déciment la population de poissons et menacent la biodiversité et la subsistance d’un grand nombre de familles de l’île.
+          </p>
+        </div>
+
+        <div class="slide">
+          <h3>Otac (Le Père)</h3>
+          <img src="./images/otac.jpg" alt="Affiche du film Otac">
+          <h3>Écrit et réalisé par Srdan Golubovic</h3>
+          <p>
+            Un serbe se bat pour obtenir la garde de ses enfants.
+          </p>
+        </div>
+
+        <div class="slide">
+          <h3>Le lac des hommes</h3>
+          <img src="./images/lelacdeshommes.jpg" alt="Affiche du film Le lac des hommes">
+          <h3>Écrit et réalisé par Marie-Geneviève Chabot.</h3>
+          <p>
+            Trois frères au cheminement différent partent en voyage de pêche avec leur père qui, quarante ans plus tôt, est parti refaire sa vie loin de ses enfants.
+          </p>
+        </div>
+
+        <div class="slide">
+          <h3>Babyteeth (Milla)</h3>
+          <img src="./images/babyteeth.jpg" alt="Affiche du film Babyteeth">
+          <h3>Réalisé par Shannon Murphy</h3>
+          <p>
+            Les parents de Milla, une adolescente souffrant d’une grave maladie, sont sous le choc quand celle-ci tombe follement amoureuse d’un petit dealer de quartier. Si cette première expérience de l’amour redonne la joie de vivre à Milla, tout se complique très vite.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="classslide-nav">
+        <label for="r1" class="circle"></label>
+        <label for="r2" class="circle"></label>
+        <label for="r3" class="circle"></label>
+        <label for="r4" class="circle"></label>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div id="footer-container">
+
+    </div>
+  </footer>
 </body>
 </html>
