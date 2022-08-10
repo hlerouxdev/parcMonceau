@@ -1,0 +1,85 @@
+#main {
+  background: linear-gradient(
+    120deg,
+    rgb(59, 90, 212) 0%,
+    rgb(59, 90, 212) 50%,
+    rgb(27, 27, 105) 53%,
+    rgb(53, 53, 201) 53%,
+    rgb(53, 53, 201) 100%
+    );
+  padding: 2em;
+}
+
+#main h2, #main h3 {
+  text-align: center;
+  color: white;
+}
+
+#main p {
+  text-align: justify;
+  color: white;
+}
+
+#presentation {
+  position: relative;
+  text-justify: distribute;
+  padding: 1em 0;
+}
+
+#presentation p {
+  position: relative;
+  padding: 0 1em;
+  text-align: center;
+  z-index: 2;
+}
+
+#presentation h2 {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-black {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  box-shadow: 0 0 5px 10px;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#showcase {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.movie-card {
+  padding: 1em 2em;
+  background: linear-gradient(
+    rgb(49, 49, 49) 0%,
+    rgb(20, 20, 20) 100%
+    );
+  margin: 1em 0;
+}
+
+.movie-title h3 {
+  font-style: italic;
+}
+
+.movie-title img {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.movie-infos p {
+  border-top: solid white 2px;
+  padding: 1em 0;
+}
+
+.movie-infos-details {
+  color: rgb(175, 175, 175) !important;
+}

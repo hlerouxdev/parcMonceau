@@ -1,0 +1,109 @@
+body{
+  font-family: 'Open Sans';
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  background: -webkit-linear-gradient(rgb(119, 146, 255) 60%, rgb(44, 79, 221));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2, h3, h4, h5 , h6 {
+  font-family: 'Playfair Display';
+  color: white;
+}
+
+header {
+  background-color: rgb(20, 20, 20);
+  padding: 2em 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#header-container {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#header-container ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  border-top: solid rgb(59, 90, 212) 2px;
+  padding-top: 1em;
+}
+
+#header-container li {
+  width: 40%;
+  padding: 5px 0;
+  margin: 0.5em 0;
+  border-radius: 10px;
+  background-color: rgb(59, 90, 212);
+  border: 2px rgb(53, 53, 201) solid;
+}
+
+footer {
+  background-color: rgb(20, 20, 20);
+  padding-top: 2em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-elem {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  gap: 2em;
+}
+
+.sponsors {
+  justify-content: space-between;
+  border-bottom: solid 2px rgb(59, 90, 212);
+}
+
+.sponsors img {
+  width: 50px;
+}
+
+#socials {
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 2em;
+  gap: 1em;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(175, 175, 175);
+}
