@@ -2,7 +2,7 @@
   background: linear-gradient(
     120deg,
     rgb(59, 90, 212) 0%,
-    rgb(59, 90, 212) 50%,
+    rgb(59, 90, 212) 51%,
     rgb(27, 27, 105) 53%,
     rgb(53, 53, 201) 53%,
     rgb(53, 53, 201) 100%
@@ -63,8 +63,10 @@
   width: 340px;
   display: flex;
   overflow: hidden;
-  background-color: rgb(20, 20, 20);
-  box-shadow: 0 0 5px 10px rgb(20, 20, 20);
+  background: linear-gradient(
+    rgb(49, 49, 49) 0%,
+    rgb(20, 20, 20) 100%
+    );
 }
 
 .slide {
@@ -73,8 +75,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(20, 20, 20);
+  background: linear-gradient(
+    rgb(49, 49, 49) 0%,
+    rgb(20, 20, 20) 100%
+    );
   padding: 20px;
+  margin-bottom: 1em;
 }
 
 .slide h3 {
@@ -96,7 +102,6 @@
   min-height: 450px;
   max-height: 450px;
   object-fit: cover;
-  margin-bottom: 50px;
   transition: 0.5s;
 }
 

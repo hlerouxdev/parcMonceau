@@ -2,12 +2,12 @@
   background: linear-gradient(
     120deg,
     rgb(59, 90, 212) 0%,
-    rgb(59, 90, 212) 50%,
+    rgb(59, 90, 212) 51%,
     rgb(27, 27, 105) 53%,
     rgb(53, 53, 201) 53%,
     rgb(53, 53, 201) 100%
     );
-  padding: 2em;
+  padding: 2em 1em;
 }
 
 #main h2, #main h3 {
@@ -52,7 +52,7 @@
 
 #showcase {
   width: 100%;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 .movie-card {
@@ -74,7 +74,7 @@
 .movie-title img {
   width: 100%;
   max-width: 350px;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
 }
 

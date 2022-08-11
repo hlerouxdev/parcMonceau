@@ -1,0 +1,25 @@
+#map {
+  margin: auto;
+  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#schedule-table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: white;
+}
+
+#schedule-table tr:nth-child(1) {
+  background-color: rgb(20, 20, 20) 100%;
+}
+
+#schedule-table tr:nth-child(n+1) {
+  background-color: rgb(49, 49, 49) 0%,;
+}
+
+
+    
